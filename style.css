@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 1px solid #222;
+}
+
+h1 {
+  color: red;
+  font-size: 48px;
+}
+
+h2 {
+  color: white;
+}
+
+p, li {
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #222;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.fighter-card {
+  background: #111;
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.gallery-item {
+  background: #111;
+  padding: 30px 10px;
+  text-align: center;
+  border: 1px solid #222;
+  border-radius: 8px;
+  color: #aaa;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
