@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+              url('cage-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+nav {
+  padding: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.hero-content {
+  position: relative;
+  top: 35%;
+}
+
+.btn {
+  background: red;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.event-card, .card {
+  background: #111;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.accordion {
+  background: #111;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.panel {
+  display: none;
+  padding: 10px;
+  background: #000;
+}
